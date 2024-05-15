@@ -33,9 +33,9 @@ The web app consists of two main views:
 - Mobile responsiveness for seamless browsing across all devices.
 - Catalog filter and search.
 - **Real-time stock updates** (When a customer purchases the last unit of a product that is in another user's cart, the product's availability is automatically updated to reflect the stock status).
-- Complete [cart and checkout experience.](Client/Order%20Creation%20Flow.mp4).
-- Sending emails upon successful order creation using **Amazon SES** to both the client and admin. [Click here](Client/Mail%20of%20Order.mp4) to see the email the client receives.
-- Order search using randomly-generated order number and real time update of order status. [Click here](Client/Order%20Search%20&%20Status%20Update%20From%20Admin%20Manager.mp4) to see a video showcase of this feature.
+- Complete [cart and checkout experience.](https://youtu.be/VBnJ5AW-fv8).
+- Sending emails upon successful order creation using **Amazon SES** to both the client and admin. [Click here](https://youtu.be/tWiCpnOBkuM) to see the email the client receives.
+- Order search using randomly-generated order number and real time update of order status. [Click here](https://youtu.be/4f9yYVRFiMg) to see a video showcase of this feature.
 - Data sanitization using **DOMPurify** library and data encryption using **CryptoJS** & **Laravel's OpenSSL**.
 - Implemented **SEO strategies** for improved search engine visibility and ranking.
 - Implemented performance optimization techniques, including **lazy loading** (_for routes in Vue Router as well for large files_), **image compression** (_Apache's mod_deflate module_), and code minification for enhanced user experience and faster page loading times.
@@ -87,13 +87,15 @@ In this section you'll find some screenshots and videos showcasing the functiona
 ### Videos
 Here are some videos showcasing the website functionality. I invite you to explore the repository and take a look at all of them!
 #### Order Creation Flow
+[![Order Creation Flow](Thumbnails/Video%201%20-%20Order%20Flow.png)](https://youtu.be/VBnJ5AW-fv8)
 
 #### Mail Received Upon Order Creation
+[![Mail Received Upon Order Creation](Thumbnails/Video%202%20-%20Mail%20Received.png)](https://youtu.be/tWiCpnOBkuM)
 
 #### Admin Asset Manager
-[![Admin Asset Manager](https://i9.ytimg.com/vi/MINBuPo4vKw/mqdefault.jpg?sqp=CLS7j7IG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCggOih_MA8=&rs=AOn4CLDUpSI-dVMVvvJqcBkDGNmXVx99Ig)](https://youtu.be/uCMrwZqKlBU)
+[![Admin Asset Manager](Thumbnails/Video%203%20-%20Asset%20Manager.png)](https://youtu.be/uCMrwZqKlBU) 
 
 #### Admin Order Manager
-[![Admin Order Manager](https://i9.ytimg.com/vi/uCMrwZqKlBU/mqdefault.jpg?sqp=CNj6j7IG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFogZShcMA8=&rs=AOn4CLAMUTCqS8ceeUkqxreCGLtQnxyT6Q)](https://youtu.be/SoI5PCMuKNI)
+[![Admin Order Manager](Thumbnails/Video%204%20-%20Order%20Manager.png)](https://youtu.be/SoI5PCMuKNI)
 
 Feel free to explore the repository as well as the [web page](https://maktubhome.com) to learn more about the project. If you have any questions or suggestions, please don't hesitate to reach out via [mail](mailto:tototemporelli12@gmail.com).
